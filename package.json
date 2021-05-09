@@ -4,7 +4,8 @@
   "description": "Un taller para aprender",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [
     "taller",
@@ -13,5 +14,8 @@
     "git"
   ],
   "author": "Sergio",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
